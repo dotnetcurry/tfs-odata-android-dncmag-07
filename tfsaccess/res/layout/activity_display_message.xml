@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DisplayMessageActivity" >
+
+<!--    <Button  -->
+<!--         android:id="@+id/GetDataButton" -->
+<!--         android:text="Get Work Items" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:onClick="GetDataButton_Click"/> -->
+
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Iterations List"
+	    android:textSize="20sp" />
+
+    <ListView android:id="@+id/wiList"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" /> 
+
+</LinearLayout>

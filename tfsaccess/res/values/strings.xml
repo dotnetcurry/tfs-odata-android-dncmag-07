@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">tfsaccess</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Get List of Team Projects</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="tfsodata_connection">https://tfsodata.visualstudio.com/DefaultCollection</string>
+    <string name="connect_prompt">Connect to Team Project</string>
+    <string name="title_activity_work_items">WorkItemsActivity</string>
+    <string name="Status_Activity_Top_Text">Iteration Status</string>
+	<string name="WorkItem_Text">WorkItems Status</string>
+	<string name="WorkItem_Type">WI Type</string>
+	<string name="WorkItem_Active">Active</string>
+	<string name="WorkItem_Closed">Closed</string>
+	<string name="WorkItem_Requirements">Requirements</string>
+	<string name="WorkItem_Tasks">Tasks</string>
+	<string name="WorkItem_Bugs">Bugs</string>
+</resources>
